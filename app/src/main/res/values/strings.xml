@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AR Studio</string>
+    <string name="explore_in_ar">Explore in AR</string>
+    <string name="object_gallery">3D Object Gallery</string>
+    <string name="how_ar_works">How AR Works</string>
+    <string name="about_app">About</string>
+    <string name="scanning_instruction">Move your phone slowly to scan horizontal surfaces</string>
+    <string name="surface_searching">Searching for surfaces…</string>
+    <string name="surface_detected">Surface Detected • Tap plane to place</string>
+    <string name="delete_object">Delete</string>
+    <string name="reset_scene">Reset Scene</string>
+</resources>

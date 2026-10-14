@@ -1,0 +1,224 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.arstudio"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:4:5-65
+11-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:4:22-62
+12
+13    <uses-feature
+13-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:6:5-8:36
+14        android:name="android.hardware.camera.ar"
+14-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:7:9-50
+15        android:required="false" />
+15-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:8:9-33
+16    <uses-feature
+16-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:9:5-11:35
+17        android:glEsVersion="0x00030000"
+17-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:10:9-41
+18        android:required="true" />
+18-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:11:9-32
+19
+20    <queries>
+20-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:20:5-27:15
+21        <package android:name="com.google.ar.core" />
+21-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:21:9-54
+21-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:21:18-51
+22        <package android:name="com.android.vending" />
+22-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:22:9-55
+22-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:22:18-52
+23
+24        <intent>
+24-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:24:9-26:18
+25            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE" />
+25-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:25:13-96
+25-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:25:21-93
+26        </intent>
+27    </queries>
+28
+29    <permission
+29-->[androidx.core:core:1.9.0] C:\Users\sharm\.gradle\caches\transforms-4\b06a0754b3702ea81ce4d3a9c88f93e5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+30        android:name="com.arstudio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.9.0] C:\Users\sharm\.gradle\caches\transforms-4\b06a0754b3702ea81ce4d3a9c88f93e5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.9.0] C:\Users\sharm\.gradle\caches\transforms-4\b06a0754b3702ea81ce4d3a9c88f93e5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.arstudio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.9.0] C:\Users\sharm\.gradle\caches\transforms-4\b06a0754b3702ea81ce4d3a9c88f93e5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.9.0] C:\Users\sharm\.gradle\caches\transforms-4\b06a0754b3702ea81ce4d3a9c88f93e5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:13:5-56:19
+36        android:allowBackup="true"
+36-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:14:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.9.0] C:\Users\sharm\.gradle\caches\transforms-4\b06a0754b3702ea81ce4d3a9c88f93e5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:icon="@drawable/ic_ar_studio_logo"
+40-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:15:9-51
+41        android:label="@string/app_name"
+41-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:16:9-41
+42        android:roundIcon="@drawable/ic_ar_studio_logo"
+42-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:17:9-56
+43        android:supportsRtl="true"
+43-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:18:9-35
+44        android:theme="@style/Theme.ARStudio" >
+44-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:19:9-46
+45        <meta-data
+45-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:21:9-23:40
+46            android:name="com.google.ar.core"
+46-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:22:13-46
+47            android:value="optional" />
+47-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:23:13-37
+48
+49        <activity
+49-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:25:9-33:20
+50            android:name="com.arstudio.MainActivity"
+50-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:26:13-41
+51            android:exported="true"
+51-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:27:13-36
+52            android:screenOrientation="portrait" >
+52-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:28:13-49
+53            <intent-filter>
+53-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:29:13-32:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:30:17-69
+54-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:30:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:31:17-77
+56-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:31:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:35:9-39:52
+60            android:name="com.arstudio.ArActivity"
+60-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:36:13-39
+61            android:configChanges="orientation|screenSize"
+61-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:37:13-59
+62            android:exported="false"
+62-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:38:13-37
+63            android:screenOrientation="portrait" />
+63-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:39:13-49
+64        <activity
+64-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:41:9-44:52
+65            android:name="com.arstudio.GalleryActivity"
+65-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:42:13-44
+66            android:exported="false"
+66-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:43:13-37
+67            android:screenOrientation="portrait" />
+67-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:44:13-49
+68        <activity
+68-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:46:9-49:52
+69            android:name="com.arstudio.HowArWorksActivity"
+69-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:47:13-47
+70            android:exported="false"
+70-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:48:13-37
+71            android:screenOrientation="portrait" />
+71-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:49:13-49
+72        <activity
+72-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:51:9-54:52
+73            android:name="com.arstudio.AboutActivity"
+73-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:52:13-42
+74            android:exported="false"
+74-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:53:13-37
+75            android:screenOrientation="portrait" />
+75-->C:\Users\sharm\.gemini\antigravity\scratch\ARStudio\app\src\main\AndroidManifest.xml:54:13-49
+76
+77        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+78        <meta-data
+78-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:32:9-34:41
+79            android:name="com.google.ar.core.min_apk_version"
+79-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:33:13-62
+80            android:value="232620000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+80-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:34:13-38
+81        <activity
+81-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:36:9-42:80
+82            android:name="com.google.ar.core.InstallActivity"
+82-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:37:13-62
+83            android:configChanges="keyboardHidden|orientation|screenSize"
+83-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:38:13-74
+84            android:excludeFromRecents="true"
+84-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:39:13-46
+85            android:exported="false"
+85-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:40:13-37
+86            android:launchMode="singleTop"
+86-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:41:13-43
+87            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+87-->[com.google.ar:core:1.41.0] C:\Users\sharm\.gradle\caches\transforms-4\ca30fbd2f59e5f71642a47512c83a01c\transformed\core-1.41.0\AndroidManifest.xml:42:13-77
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sharm\.gradle\caches\transforms-4\a969867f3b247d3a0da0458099d92bb3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sharm\.gradle\caches\transforms-4\a969867f3b247d3a0da0458099d92bb3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+91            android:authorities="com.arstudio.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sharm\.gradle\caches\transforms-4\a969867f3b247d3a0da0458099d92bb3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sharm\.gradle\caches\transforms-4\a969867f3b247d3a0da0458099d92bb3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sharm\.gradle\caches\transforms-4\a969867f3b247d3a0da0458099d92bb3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sharm\.gradle\caches\transforms-4\a969867f3b247d3a0da0458099d92bb3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sharm\.gradle\caches\transforms-4\a969867f3b247d3a0da0458099d92bb3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sharm\.gradle\caches\transforms-4\2067dbd43dd767999ecc52e807a76f84\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sharm\.gradle\caches\transforms-4\2067dbd43dd767999ecc52e807a76f84\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sharm\.gradle\caches\transforms-4\2067dbd43dd767999ecc52e807a76f84\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+99            <meta-data
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+101                android:value="androidx.startup" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+102        </provider>
+103
+104        <receiver
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+105            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+106            android:directBootAware="false"
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+107            android:enabled="true"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+108            android:exported="true"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+109            android:permission="android.permission.DUMP" >
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+111                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+114                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+117                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+120                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sharm\.gradle\caches\transforms-4\b0abe500c17c4f6c857491eab6a913da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+121            </intent-filter>
+122        </receiver>
+123    </application>
+124
+125</manifest>
